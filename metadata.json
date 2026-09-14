@@ -1,0 +1,7 @@
+{
+  "name": "School Results & Attendance Management System",
+  "description": "Online school results and attendance management system with Exams Office portal, teacher/parent/student management, generated PINs, immutable submissions, automatic grading, and two-semester reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
