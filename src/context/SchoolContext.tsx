@@ -15,8 +15,8 @@ import {
 import { INITIAL_SCHOOL_DATA } from '../data/initialData';
 import { generatePin, generateStudentId, generateSubmissionHash } from '../utils/grading';
 
-const STORAGE_KEY = 'school_results_attendance_db_v1';
-const AUTH_KEY = 'school_auth_session_v1';
+const STORAGE_KEY = 'givers_world_mission_mis_db_v1';
+const AUTH_KEY = 'givers_world_mission_auth_v1';
 
 interface SchoolContextType {
   data: SchoolDatabase;

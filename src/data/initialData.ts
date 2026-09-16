@@ -2,10 +2,10 @@ import { SchoolDatabase } from '../types';
 import { computeGrade } from '../utils/grading';
 
 export const INITIAL_SCHOOL_DATA: SchoolDatabase = {
-  schoolName: 'Apex Model Comprehensive College',
-  schoolMotto: 'Excellence, Integrity & Academic Prowess',
-  schoolAddress: '14 Academy Boulevard, Knowledge District, KD 90210',
-  schoolContact: '+1 (555) 019-2831 • exams.office@apexcollege.edu',
+  schoolName: 'Givers World Mission School',
+  schoolMotto: 'Excellence, Integrity, Discipline & Academic Prowess',
+  schoolAddress: 'Kambia Town, Northern Province, Sierra Leone',
+  schoolContact: '+232 76 000000 • info@giversworldmission.org',
   academicYear: '2025/2026',
   activeSemester: 'Semester 1',
   classes: [
@@ -28,8 +28,8 @@ export const INITIAL_SCHOOL_DATA: SchoolDatabase = {
       id: 'tch-01',
       staffId: 'STAFF-MTH-01',
       fullName: 'Dr. Michael Vance',
-      email: 'm.vance@apexcollege.edu',
-      phone: '+1 555-321-4401',
+      email: 'm.vance@giversworldmission.org',
+      phone: '+232 76 3214401',
       department: 'Mathematics & STEM',
       assignedSubjects: [
         { subjectId: 'sub-mth', classId: 'cls-10a' },
@@ -40,8 +40,8 @@ export const INITIAL_SCHOOL_DATA: SchoolDatabase = {
       id: 'tch-02',
       staffId: 'STAFF-ENG-02',
       fullName: 'Mrs. Eleanor Campbell',
-      email: 'e.campbell@apexcollege.edu',
-      phone: '+1 555-321-4402',
+      email: 'e.campbell@giversworldmission.org',
+      phone: '+232 76 3214402',
       department: 'Languages & Humanities',
       assignedSubjects: [
         { subjectId: 'sub-eng', classId: 'cls-10a' },
@@ -52,8 +52,8 @@ export const INITIAL_SCHOOL_DATA: SchoolDatabase = {
       id: 'tch-03',
       staffId: 'STAFF-SCI-03',
       fullName: 'Mr. David Adeyemi',
-      email: 'd.adeyemi@apexcollege.edu',
-      phone: '+1 555-321-4403',
+      email: 'd.adeyemi@giversworldmission.org',
+      phone: '+232 76 3214403',
       department: 'Physical Sciences',
       assignedSubjects: [
         { subjectId: 'sub-phy', classId: 'cls-10a' },
@@ -64,8 +64,8 @@ export const INITIAL_SCHOOL_DATA: SchoolDatabase = {
       id: 'tch-04',
       staffId: 'STAFF-CHM-04',
       fullName: 'Dr. Sarah Jenkins',
-      email: 's.jenkins@apexcollege.edu',
-      phone: '+1 555-321-4404',
+      email: 's.jenkins@giversworldmission.org',
+      phone: '+232 76 3214404',
       department: 'Chemical Sciences',
       assignedSubjects: [
         { subjectId: 'sub-chm', classId: 'cls-10a' },
@@ -76,8 +76,8 @@ export const INITIAL_SCHOOL_DATA: SchoolDatabase = {
       id: 'tch-05',
       staffId: 'STAFF-CSC-05',
       fullName: 'Mr. Kenneth O’Connor',
-      email: 'k.oconnor@apexcollege.edu',
-      phone: '+1 555-321-4405',
+      email: 'k.oconnor@giversworldmission.org',
+      phone: '+232 76 3214405',
       department: 'Computer Technology',
       assignedSubjects: [
         { subjectId: 'sub-csc', classId: 'cls-10a' },

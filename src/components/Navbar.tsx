@@ -98,7 +98,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBackup, onOpenPinCards }) 
                 </span>
               </div>
               <p className="text-xs text-slate-500 font-medium">
-                Academic Results & Attendance Management System
+                School Management Information System (MIS)
               </p>
             </div>
           </div>
